@@ -1,0 +1,13 @@
+/*
+- The utils need to have the highest priority in order for them to work.
+- Utils allows me to create classes or rules for components I used often. For example: make one class for all buttons on my site.
+*/
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.5em;
+    background-color: var(--clr-rose);
+    color: ;
+}
