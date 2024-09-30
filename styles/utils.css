@@ -28,5 +28,42 @@
 - The moment the viewport is resized, the content will be resized. 
 */
 
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid red;
+}
 
 
+/* 
+- Anything out side of the media query paramaters will apply styles as the viewport width increases.
+- You start by designing for the smallest screens first.
+- As the screen size increases, you use media queries to add or modify styles for larger screens.
+- This is reflected in the structure of your media queries, which start from the smallest ("xs") and progress to the largest ("2xl").
+- Your setup allows for a responsive design where you can define how your layout and components should adapt as the screen size increases, starting from a mobile layout and scaling up to larger desktop sizes.
+*/
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1024px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
